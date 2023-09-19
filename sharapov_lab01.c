@@ -7,7 +7,6 @@ int main() {
     for (int i = 1; i <= x / 2; ++i) {
         if (x % i == 0) {
             s += i;
-//            printf("%i\n", i);
         }
     }
     if (x > s) {
